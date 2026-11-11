@@ -277,3 +277,30 @@ for field, value in person.items():
 ```
 
 What does `items()` return that makes the loop work?
+
+---
+## 2026-11-11 15:43, in .
+
+**Me:** what does enumerate(names, start=1) do in apython for loop
+
+**Tutor:**
+
+Concept: The enumerate function adds a counter to an iterable so you can loop over both index and value.
+
+Pattern:
+```python
+names = ["alpha", "beta", "gamma"]
+for position, name in enumerate(names, start=1):
+    print(f"{position}: {name}")
+```
+
+Question: Which argument tells enumerate where the counting should begin?
+
+---
+## 2026-11-11 15:43, in .
+
+**Me:** why does range(1, 10) give 9 numbers and not 10
+
+**Tutor:**
+
+Refused, off topic.
