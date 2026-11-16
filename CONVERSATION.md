@@ -474,3 +474,23 @@ What does `repr(alpha)` return if `alpha = 42`?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-16 15:59, in .
+
+**Me:** What is try for ?
+
+**Tutor:**
+
+The try statement is used to catch and handle exceptions (errors) that might occur during execution.
+
+```python
+def safe_divide(numerator, denominator):
+    try:
+        result = numerator / denominator
+    except ZeroDivisionError:
+        result = float('inf')
+    return result
+```
+
+What function is used inside the try block to perform the division?
