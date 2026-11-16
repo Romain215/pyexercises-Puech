@@ -355,3 +355,24 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-16 13:53, in .
+
+**Me:** how can I read a csv
+
+**Tutor:**
+
+Reading a CSV file in Python is done with the csv module.
+
+```python
+import csv
+
+# TODO: replace 'data.csv' with your file path
+with open('data.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile)           # read rows as lists
+    for row in reader:
+        print(row)                         # TODO: process each row here
+```
+
+What argument does csv.reader receive?
